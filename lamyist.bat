@@ -1,7 +1,12 @@
 @echo off
 setlocal enabledelayedexpansion
 
-REM check if Labels.txt exists, exit if not
+REM check if yamlist & Labels.txt exist, exit if not
+if not exist "yamlist.exe" (
+    echo yamlist.exe not found!
+    pause
+    exit
+)
 if not exist "Labels.txt" (
     echo Labels.txt not found!
     pause

@@ -3,4 +3,4 @@ Batch file to assist with using [yamlist](https://github.com/ultimate-research/m
 ## Usage
 Drag .bin or .yml files onto lamyist.bat to convert them using yamlist.
 
-**Yamlist.exe & Labels.txt must be in the same folder for lamyist to work.**
+**🚨 yamlist.exe & Labels.txt must be in the same folder as lamyist for the file to work.**
