@@ -2,13 +2,13 @@
 setlocal enabledelayedexpansion
 
 REM check if yamlist & Labels.txt exist, exit if not
-if not exist "yamlist.exe" (
-    echo yamlist.exe not found!
+if not exist "%~dp0yamlist.exe" (
+    echo yamlist.exe not found^^!
     pause
     exit
 )
-if not exist "Labels.txt" (
-    echo Labels.txt not found!
+if not exist "%~dp0Labels.txt" (
+    echo Labels.txt not found^^! Download the newest version from https://github.com/ultimate-research/param-labels/blob/master/motion_list/Labels.txt
     pause
     exit
 )
