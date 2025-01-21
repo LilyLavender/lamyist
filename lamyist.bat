@@ -3,7 +3,7 @@ setlocal enabledelayedexpansion
 
 REM check if yamlist & Labels.txt exist, exit if not
 if not exist "%~dp0yamlist.exe" (
-    echo yamlist.exe not found^^!
+    echo yamlist.exe not found^^! Download the newest version from https://github.com/ultimate-research/motion_lib/releases
     pause
     exit
 )
